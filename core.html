@@ -14,11 +14,16 @@
 			border: 1px solid #ddd;
 		}
 	</style>
+
+	<script type="text/javascript" src="js/js-gr.js"></script>
 </head>
 <body>
 <canvas class="js-gr" id="core" width="400" height="300">
 	<p>This page requires a browser which supports the <pre>&lt;canvas&gt;</pre> tag.</p>
 </canvas>
-<script type="text/javascript" src="js/js-gr.js"></script>
+
+<script>
+	var target = new JSGrammar("core");
+</script>
 </body>
 </html>
